@@ -6,7 +6,10 @@ namespace Max_Generics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To Maximum Number Problem");
+            Console.WriteLine("UseCase 1 Find Max Int  Number");
+
+            int intOutput = MaxNumberCheck.MaxNumbermethod_Int(11, 22, 33);
+            Console.Write(intOutput);
         }
     }
 }
